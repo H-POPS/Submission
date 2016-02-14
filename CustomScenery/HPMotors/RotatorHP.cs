@@ -66,7 +66,6 @@ public class RotatorHP : motor
         currentSpeed = 0;
         changeState(State.STARTING);
         Initialize(axis, accelerationSpeed, maxSpeed, rotationAxis);
-        Debug.Log("Intialized motor");
         base.Enter();
     }
         

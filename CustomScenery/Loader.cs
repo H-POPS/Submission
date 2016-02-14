@@ -80,7 +80,6 @@ public class Loader : MonoBehaviour
                                 BB.bounds.max = getVector3(Box["max"].InnerText);
                                 BB.layers = BoundingVolume.Layers.Buildvolume;
                                 BB.isStatic = true;
-                                Debug.Log("BoudingBox Added");
                             }
                         }
 

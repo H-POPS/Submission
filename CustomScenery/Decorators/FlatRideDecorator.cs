@@ -32,9 +32,7 @@ namespace Custom_Scenery.Decorators
             
             foreach (Phase P in RA.phases)
             {
-
                 
-                    Debug.Log("Found phase//");
                     foreach (RideAnimationEvent RAE in P.Events)
                 {
                     RAE.Check(RA);

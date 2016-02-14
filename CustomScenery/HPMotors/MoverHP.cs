@@ -63,10 +63,7 @@ public class MoverHP : motor
     {
         this.axis = axis;
         this.fromPosition = fromPosition;
-
-        Debug.Log("pos: " + toPosition);
         this.toPosition = toPosition;
-        Debug.Log("pos: " + toPosition);
         this.duration = duration;
         this.setPosition();
     }

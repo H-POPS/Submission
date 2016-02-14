@@ -54,7 +54,6 @@ public class CustomFlatRide : FlatRide
             currentPhase.Run();
             if (!currentPhase.running)
             {
-                Debug.Log("-=====[Next Phase]=====-");
                 NextPhase();
             }
         }
@@ -74,7 +73,6 @@ public class CustomFlatRide : FlatRide
             currentPhase.Run();
             return;
         }
-        Debug.Log("-=====[Stopped]=====-");
         animating = false;
 
     }
