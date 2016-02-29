@@ -45,9 +45,9 @@ namespace Custom_Scenery.Decorators
         public void BasicFlatRideSettings(FlatRide FlatRideScript)
         {
             FlatRideScript.fenceGO = AssetManager.Instance.rideFenceGO;
-            FR.entranceGO = AssetManager.Instance.attractionEntranceGO;
-            FR.exitGO = AssetManager.Instance.attractionExitGO;
-            FR.categoryTag = "Attractions/Flat Ride";
+            FlatRideScript.entranceGO = AssetManager.Instance.attractionEntranceGO;
+            FlatRideScript.exitGO = AssetManager.Instance.attractionExitGO;
+            FlatRideScript.categoryTag = "Attractions/Flat Ride";
             FlatRideScript.entranceExitBuilderGO = AssetManager.Instance.flatRideEntranceExitBuilderGO;
 
         }
