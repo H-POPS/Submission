@@ -45,11 +45,10 @@ namespace Custom_Scenery.Decorators
         public void BasicFlatRideSettings(FlatRide FlatRideScript)
         {
             FlatRideScript.fenceGO = AssetManager.Instance.rideFenceGO;
-            FlatRideScript.entranceGO = AssetManager.Instance.rideEntranceGO;
-            FlatRideScript.exitGO = AssetManager.Instance.rideExitGO;
+            FR.entranceGO = AssetManager.Instance.attractionEntranceGO;
+            FR.exitGO = AssetManager.Instance.attractionExitGO;
+            FR.categoryTag = "Attractions/Flat Ride";
             FlatRideScript.entranceExitBuilderGO = AssetManager.Instance.flatRideEntranceExitBuilderGO;
-
-
 
         }
         public void AddRestraints(GameObject asset, Vector3 closeAngle)
